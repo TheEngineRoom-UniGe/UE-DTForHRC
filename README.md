@@ -27,7 +27,7 @@ This project assumes that the human operator and the robot are tracked in an X-Y
 'TiagoComm' data asset should be modified also to reflect the IP/PORT of the ros bridge that is broadcasting the robot's joints states.
 Human joints states are tracked using a single ZED2 camera. ZED Live link plugin should be installed and enabled.
 
-# N.B 
+# N.B.
 
 At the first launch, the virtual environment should be aligned with the reference frame of the motion capture system/ tracking system.
 
