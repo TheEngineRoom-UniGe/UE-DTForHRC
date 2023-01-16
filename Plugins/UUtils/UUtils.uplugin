@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UUtils",
+	"Description": "Plugin with various utility modules for RobCoG",
+	"Category": "RobCoG",
+	"CreatedBy": "Andrei Haidu",
+	"CreatedByURL": "http://haidu.eu/",
+	"DocsURL": "https://github.com/robcog-iai/UUtils",
+	"MarketplaceURL": "",
+	"SupportURL": "http://robcog.org/",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UTags",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UIds",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UConversions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

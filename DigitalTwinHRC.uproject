@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{40CD5CCC-4700-6D05-7446-94A4BFAA86B5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DigitalTwinHRC",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"LiveLink"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "WebSocketNetworking",
+			"Enabled": true
+		},
+		{
+			"Name": "SocketIOClient",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/slug/socket-io-client"
+		},
+		{
+			"Name": "UDPWrapper",
+			"Enabled": false
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		}
+	]
+}

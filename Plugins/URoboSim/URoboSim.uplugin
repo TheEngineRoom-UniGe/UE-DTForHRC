@@ -1,0 +1,58 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "URoboSim",
+	"Description": "",
+	"Category": "URoboSim",
+	"CreatedBy": "Michael Neumann",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/urobosim/URoboSim",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+		  "Name": "URoboSim",
+		  "Type": "Runtime",
+		  "LoadingPhase": "Default"
+		},
+                {
+		  "Name": "URoboSimEditor",
+		  "Type": "Editor",
+		  "LoadingPhase": "Default"
+		}
+		],
+  "Plugins": [
+    {
+      "Name": "UUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "UTFPublisher",
+      "Enabled": true
+    },
+    {
+      "Name": "URoboVision",
+      "Enabled": true
+    },
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    },
+    {
+      "Name": "CustomMeshComponent",
+      "Enabled": true
+    },
+    {
+      "Name": "UROSBridge",
+      "Enabled": true
+    },
+    {
+      "Name": "UROSWorldControl",
+      "Enabled": true
+    }
+  ]
+}
