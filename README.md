@@ -29,7 +29,7 @@ Human joints states are tracked using a single ZED2 camera. ZED Live link plugin
 
 # N.B 
 
-At first launch, the virtual environment should be alligned with the reference frame of the motion capture system/ tracking system.
+At the first launch, the virtual environment should be aligned with the reference frame of the motion capture system/ tracking system.
 
 # License
 
