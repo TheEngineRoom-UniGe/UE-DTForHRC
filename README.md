@@ -33,7 +33,7 @@ At the first launch, the virtual environment should be aligned with the referenc
 
 # License
 
-Licensed under MIT [License](LICENSE.txt).
+Licensed under MIT [License](LICENSE).
 
 ```
 Copyright (c) 2022-2023 TheEngineRoom-UniGe, Mohamad Shaaban.
